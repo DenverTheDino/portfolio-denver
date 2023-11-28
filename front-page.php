@@ -1,41 +1,15 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">    
-    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;600;700;900&&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    
-<title>Portfolio</title>
-</head>
-<body>
-<header class="main">
-    <div class="container">        
-        <div class="row">
-            <div class="col-12 d-flex justify-content-end">
-                <ul class="d-flex">
-                    <li>
-                        <a href="index.html" target="_blank">Accueil</a>
-                    </li>
-                    <li>
-                        <a href="a-propos.html" target="_blank">A propos</a>
-                    </li>
-                    <li>
-                        <a href="contact.html" target="_blank">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</header>
-<section class="about">
+<?php 
+    get_header();
+?>
+    <h1><?php bloginfo( 'name' ); ?></h1>
+    <h2><?php bloginfo( 'description' ); ?></h2>
+ 
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+ 
+    <h1><?php the_title(); ?></h1>
+ 
+    <?php the_content(); ?>
+    <section class="about">
     <div class="container">
         <div class="row pt-5">
             <div class="col-12 col-md-6">
@@ -129,25 +103,12 @@
         </div>
     </div>
 </section>
-<footer class="footer">
-    <div class="container">
-        <div class="row text-center p-3">
-            <div class="col-sm-12 col-md-4">
-                <p>Adresse Mail</p>
-                <p>marchand.christophe.cm@gmail.com</p>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <p>Téléphone</p>
-                <p>07 62 80 83 92</p>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <p>Adresse</p>
-                <p>25 avenue Foch<br>batiment B apprt 210<br>48000 Mende</p>
-            </div>
-        </div>
-    </div>
-</footer>
-</body>
+    <?php wp_link_pages(); ?>
+   <?php endwhile; ?>
+ 
+    <?php endif; ?>
+    <?php 
+    //recupere le contenu
+    get_footer(); ?>
+  </body>
 </html>
-
-    
