@@ -1,0 +1,29 @@
+/*
+Theme Name: Portfolio Denver
+Theme URI: https://www.monsite.fr/
+Author: Denver
+Author URI: https://www.site-auteur.fr/
+Description: Fait avec wordpress
+Version: 1.0
+*/
+.main{
+    background-color: #101010; 
+}
+.main a{
+    text-decoration: none;
+    text-transform: none;
+    color: #0d9865;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.main ul{
+    list-style: none;
+}
+.main a:hover{
+   cursor: default;
+   color:#0d9865 ;
+
+}
+.main ul li{
+    margin-left: 40px;
+}
