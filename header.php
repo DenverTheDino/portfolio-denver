@@ -18,6 +18,7 @@
   
 
 <body <?php body_class();?>>
+<?php the_content(); ?>
 <header  class="main">
         <div class="container">        
             <div class="row">
