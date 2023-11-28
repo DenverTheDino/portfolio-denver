@@ -121,6 +121,10 @@ body{
     font-family: 'Caveat', cursive;
 
 }
+.contact__form btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .main__contact{
     display: flex;
     text-align: center;

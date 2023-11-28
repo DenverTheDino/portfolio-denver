@@ -123,8 +123,11 @@ Version: 1.0
     background-color: #101010;
     color: #0d9865;
     font-family: 'Caveat', cursive;
+    
 
 }
+
+
 .main__contact{
     display: flex;
     text-align: center;
@@ -156,3 +159,14 @@ Version: 1.0
     
 
 }
+.contact__page{
+    width: auto;
+}
+.wpcf7-form-control{
+    color:#0d9865;
+    align-content: center;
+}
+.wpcf7-submit{
+    margin-left: 80px;
+    background-color: #101010;
+    }

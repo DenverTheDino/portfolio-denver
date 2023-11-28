@@ -3,7 +3,7 @@
 wp_footer(); ?>
 <footer class="footer">
     <div class="container">
-        <div class="row text-center p-3">
+        <div class="row text-center pt-5 pb-5">
             <div class="col-sm-12 col-md-4">
                 <p>Adresse Mail</p>
                 <p>marchand.christophe.cm@gmail.com</p>

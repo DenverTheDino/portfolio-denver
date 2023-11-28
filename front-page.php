@@ -41,7 +41,7 @@
         </div>
     </div>
 </section>
-<section class="projet mb-4">
+<section class="projet ">
     <div class="container">
         <div class="row pt-5">
             <div class="col-12 text-center">
