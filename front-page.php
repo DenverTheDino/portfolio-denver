@@ -6,7 +6,7 @@
  
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
  
-    <h1><?php the_title(); ?></h1>
+    
  
     <?php the_content(); ?>
     <section class="about">
@@ -14,11 +14,11 @@
         <div class="row pt-5">
             <div class="col-12 col-md-6">
                 <h1>Qui-suis-je</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, tempora, enim adipisci omnis nobis magni hic neque at, ipsum iure blanditiis quaerat voluptatem commodi sed cumque ipsa architecto aspernatur repellendus.</p>
+                <p>Je m'appelle Marchand Christophe, agé de 28 ans, </p>
                 <a class="btn btn-dark" href="a-propos.html" target="_blank">En savoir plus</a>
             </div> 
             <div class="col-12 col-md-6">
-                <img src="image/téléchargement (1).jfif" alt="placeholder">
+                <img src="http://localhost/wordpress/wp-content/uploads/2023/11/Christophe.png" alt="placeholder">
             </div>           
         </div>
     </div>
@@ -58,7 +58,7 @@
         <div class="row pt-5 pb-5">
             <div class="col-12 col-md-4">
                 <div class="card">
-                    <img src="image/site.png" class="card-img-top" alt="...">
+                    <img src="http://localhost/wordpress/wp-content/uploads/2023/11/site.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Reproduction d'un site</h5>
                       <p class="card-text">J'ai utilisé HTML,CSS,JS et bootstrapt.</p>
@@ -68,7 +68,7 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="card">
-                    <img src="image/site tom brady.png" class="card-img-top" alt="...">
+                    <img src="http://localhost/wordpress/wp-content/uploads/2023/11/site-tom-brady.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Premier brief</h5>
                       <p class="card-text">HTML,CSS</p>
@@ -78,7 +78,7 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="card">
-                    <img src="image/formulaire.png" class="card-img-top" alt="...">
+                    <img src="http://localhost/wordpress/wp-content/uploads/2023/11/formulaire.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Formulaire</h5>
                       <p class="card-text">HTML,CSS,BOOTSTRAP,JS</p>
@@ -103,7 +103,7 @@
         </div>
     </div>
 </section>
-    <?php wp_link_pages(); ?>
+   
    <?php endwhile; ?>
  
     <?php endif; ?>
