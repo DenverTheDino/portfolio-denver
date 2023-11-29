@@ -1,7 +1,7 @@
 <?php 
 //le contenu du footer
 wp_footer(); ?>
-<footer class="footer">
+<footer class="footer footer__contact">
     <div class="container">
         <div class="row text-center pt-5 pb-5">
             <div class="col-sm-12 col-md-4">

@@ -118,7 +118,11 @@ Version: 1.0
     background-color: #0d9865;
     color: #101010;
     font-family: 'MuseoModerno', sans-serif;
+    
 }
+.contact__text h2{
+    font-size:50px
+};
 .contact__form{
     background-color: #101010;
     color: #0d9865;
@@ -153,9 +157,13 @@ Version: 1.0
 .main__contact ul li{
     margin-left: 40px;
 }
-.footer__contact-text{
+.footer__contact{
+    background-color: #101010;
+}
+.footer__contact p{
     font-family: 'Caveat', cursive;
     font-size: 25px;
+    color: #0d9865;
     
 
 }
@@ -170,3 +178,59 @@ Version: 1.0
     margin-left: 80px;
     background-color: #101010;
     }
+.mine__banner{
+    color: #101010;
+    background-color: #0d9865;
+}
+.mine__banner img{
+    width: 100%;
+    height: auto;
+}
+.mine__banner h1{
+    font-family: 'MuseoModerno', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.mine__banner p{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.mine__competence{
+    background-color:#101010 ;
+    color: #0d9865;
+}
+.mine__competence h2{
+    font-family: 'MuseoModerno', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.mine__competence ul{
+    list-style: none;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    
+}
+.mine__hobbies{
+    background-color: #0d9865;
+    color: #101010;
+}
+.mine__hobbies h2{
+    font-family: 'MuseoModerno', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.mine__hobbies ul{
+    list-style: none;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    
+}
+
+
+

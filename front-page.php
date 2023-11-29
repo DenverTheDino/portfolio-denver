@@ -7,8 +7,8 @@
         <div class="row pt-5">
             <div class="col-12 col-md-6">
                 <h1>Qui-suis-je</h1>
-                <p>Je m'appelle Marchand Christophe, agé de 28 ans, </p>
-                <a class="btn btn-dark" href="a-propos.html" target="_blank">En savoir plus</a>
+                <p>Je m'appelle Marchand Christophe, agé de 28 ans, u </p>
+                <a class="btn btn-dark" href="http://localhost/wordpress/a-propos/" target="_blank">En savoir plus</a>
             </div> 
             <div class="col-12 col-md-6">
                 <img src="http://localhost/wordpress/wp-content/uploads/2023/11/Christophe.png" alt="placeholder">
@@ -55,7 +55,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Reproduction d'un site</h5>
                       <p class="card-text">J'ai utilisé HTML,CSS,JS et bootstrapt.</p>
-                      <a href="#" class="btn btn-warning">Go somewhere</a>                
+                      <a href="#" class="btn btn-primary">Go somewhere</a>                
                     </div>
                 </div>                
             </div>
@@ -91,7 +91,7 @@
         </div>
         <div class="row text-center">
             <div class="col-12 col-md-6 ">
-                <a href="contact.html" class="btn btn-dark">Contactez moi</a>
+                <a href="http://localhost/wordpress/contact/" class="btn btn-dark">Contactez moi</a>
             </div>
         </div>
     </div>

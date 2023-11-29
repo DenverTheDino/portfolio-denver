@@ -6,8 +6,8 @@ get_header(); ?>
     <section class="contact__text">
         <div class="container">
             <div class="row text-center">
-                <div class="col-12 col-md-12">  
-                    <h1>Si vous souhaitez me contacter veuillez remplir vos coordonnés si dessous</h1>
+                <div class="col-12 col-md-12 p ">  
+                    <h2>Si vous souhaitez me contacter veuillez remplir vos coordonnés si dessous</h1>
                     <?php the_content(); ?>
                 </div>
             </div>    
