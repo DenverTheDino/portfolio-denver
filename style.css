@@ -231,6 +231,17 @@ Version: 1.0
     font-size: 25px;
     
 }
+.footer a{
+    text-decoration: none;
+    text-transform: none;
+    color: #0d9865;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.footer a:hover{
+    cursor: default;
+    color: #0d9865;
+}
 
 
 

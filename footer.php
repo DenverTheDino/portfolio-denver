@@ -6,7 +6,7 @@ wp_footer(); ?>
         <div class="row text-center pt-5 pb-5">
             <div class="col-sm-12 col-md-4">
                 <p>Adresse Mail</p>
-                <p>marchand.christophe.cm@gmail.com</p>
+                <a href="mailto:marchand.christophe.cm@egmail.com">marchand.christophe.cm@gmail.com</a>
             </div>
             <div class="col-sm-12 col-md-4">
                 <p>Téléphone</p>

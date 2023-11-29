@@ -7,7 +7,7 @@
         <div class="row pt-5">
             <div class="col-12 col-md-6">
                 <h1>Qui-suis-je</h1>
-                <p>Je m'appelle Marchand Christophe, agé de 28 ans, u </p>
+                <p>Je m'appelle Marchand Christophe, agé de 28 ans, je viens de Paris je suis installé depuis peu en Lozère </p>
                 <a class="btn btn-dark" href="http://localhost/wordpress/a-propos/" target="_blank">En savoir plus</a>
             </div> 
             <div class="col-12 col-md-6">
