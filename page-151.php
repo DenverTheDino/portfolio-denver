@@ -8,14 +8,13 @@ get_header(); ?>
     <div class="container">
         <div class="row pt-5">
             <div class="col-12 col-md-6 image">
-                <img src="http://localhost/wordpress/wp-content/uploads/2023/11/Christophe.png" alt="placeholder">
+                <img src="http://localhost/wordpress/wp-content/uploads/2023/11/Christophe.png" alt="photo de moi">
             </div>           
             <div class="col-12 col-md-6 pt-5">
                 <h1>Mon parcours</h1>
-                <p class="pt-5">J'ai effectué des études de Technicien Conseil Vente en Animalerie ou j'ai obtenu mon diplome, suite a cela,
-                j'ai pu travailler dans différents types de magasins divers et varié. En fin juillet 2023, j'ai deménagé en Lozère pour changer de vie
-                grâce a une association qui m'a aider a m'y installer.Fin Aoüt le temps de trouver mes marques, j'ai effectué une info collective pour une formation de dévellopeur Web et Web Mobile ou j'ai été retenu;je suis
-                actuellement en plein dans cette formation quand j'écris ce portofolio
+                <p class="pt-5">
+                <?php $post = get_post(172) ?>
+                <?php echo $post->post_content;?>
                 </p>                        
             </div>                     
         </div>

@@ -21,7 +21,7 @@ Version: 1.0
 }
 .main a:hover{
    cursor: default;
-   color:#0d9865 ;
+   color: magenta;
 
 }
 .main ul li{
@@ -61,6 +61,12 @@ Version: 1.0
     background-color:#101010 ;
     color: #0d9865;
 }
+.competence h2{
+    font-family: 'MuseoModerno', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+}
 .competence ul{
     list-style: none;
     font-family: 'Caveat', cursive;
@@ -75,6 +81,9 @@ Version: 1.0
 .projet h2{
     font-family: 'MuseoModerno', sans-serif;
     font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+
 
 }
 
@@ -96,6 +105,13 @@ Version: 1.0
     padding-left: 450px;
     background-color: #101010;
     color: #0d9865;
+}
+.contact h2{
+    font-family: 'MuseoModerno', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+
 }
 
 .contact button{
@@ -178,6 +194,11 @@ Version: 1.0
     margin-left: 80px;
     background-color: #101010;
     }
+.wpcf7-submit:hover{
+    color: black;
+    cursor: default;
+    background-color: green;
+}    
 .mine__banner{
     color: #101010;
     background-color: #0d9865;
@@ -240,6 +261,9 @@ Version: 1.0
 }
 .footer a:hover{
     cursor: default;
+    color: magenta;
+} .contact a{
+    
     color: #0d9865;
 }
 
