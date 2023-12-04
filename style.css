@@ -21,9 +21,251 @@ Version: 1.0
 }
 .main a:hover{
    cursor: default;
-   color:#0d9865 ;
+   color: magenta;
 
 }
 .main ul li{
     margin-left: 40px;
 }
+.about{
+    background-color:#0d9865 ;
+}
+.about p{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.about img{
+    opacity: 0.6;
+    width: 100%;
+    height: auto;
+    
+}
+.about a{
+    color: #0d9865;
+    font-family: 'MuseoModerno', sans-serif;
+    
+
+}
+.about a:hover{
+    cursor: default;
+    color:#0d9865 ;
+}
+.about h1{
+    font-family: 'MuseoModerno', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.competence{
+    background-color:#101010 ;
+    color: #0d9865;
+}
+.competence h2{
+    font-family: 'MuseoModerno', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.competence ul{
+    list-style: none;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+
+}
+.projet{
+    background-color: #0d9865;
+    
+
+}
+.projet h2{
+    font-family: 'MuseoModerno', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+
+
+}
+
+.card{
+    background-color: #101010 ;
+}
+.card-title{
+    color: #0d9865;
+    font-family: 'MuseoModerno', sans-serif;
+}
+.card-text{
+    color: #0d9865;
+    font-family: 'Caveat', cursive;
+}
+
+.contact{
+    display: flex;
+    text-align: center;
+    padding-left: 450px;
+    background-color: #101010;
+    color: #0d9865;
+}
+.contact h2{
+    font-family: 'MuseoModerno', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+
+}
+
+.contact button{
+    background-color: #0d9865;
+    color: #101010;
+}
+.footer{
+    background-color: #0d9865;
+    color: #101010;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.footer__contact {
+    background-color: #0d9865;
+    color: #101010;
+    
+}
+
+.contact__text{
+    background-color: #0d9865;
+    color: #101010;
+    font-family: 'MuseoModerno', sans-serif;
+    
+}
+.contact__text h2{
+    font-size:50px
+};
+.contact__form{
+    background-color: #101010;
+    color: #0d9865;
+    font-family: 'Caveat', cursive;
+    
+
+}
+
+
+.main__contact{
+    display: flex;
+    text-align: center;
+    padding-left: 450px;
+    background-color: #101010;
+    color: #0d9865;
+}
+.main__contact a{
+    text-decoration: none;
+    text-transform: none;
+    color: #0d9865;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.main__contact ul{
+    list-style: none;
+}
+.main__contact a:hover{
+   cursor: default;
+   color:#0d9865 ;
+
+}
+.main__contact ul li{
+    margin-left: 40px;
+}
+.footer__contact{
+    background-color: #101010;
+}
+.footer__contact p{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    color: #0d9865;
+    
+
+}
+.contact__page{
+    width: auto;
+}
+.wpcf7-form-control{
+    color:#0d9865;
+    align-content: center;
+}
+.wpcf7-submit{
+    margin-left: 80px;
+    background-color: #101010;
+    }
+.wpcf7-submit:hover{
+    color: black;
+    cursor: default;
+    background-color: green;
+}    
+.mine__banner{
+    color: #101010;
+    background-color: #0d9865;
+}
+.mine__banner img{
+    width: 100%;
+    height: auto;
+}
+.mine__banner h1{
+    font-family: 'MuseoModerno', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.mine__banner p{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.mine__competence{
+    background-color:#101010 ;
+    color: #0d9865;
+}
+.mine__competence h2{
+    font-family: 'MuseoModerno', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.mine__competence ul{
+    list-style: none;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    
+}
+.mine__hobbies{
+    background-color: #0d9865;
+    color: #101010;
+}
+.mine__hobbies h2{
+    font-family: 'MuseoModerno', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.mine__hobbies ul{
+    list-style: none;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    
+}
+.footer a{
+    text-decoration: none;
+    text-transform: none;
+    color: #0d9865;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.footer a:hover{
+    cursor: default;
+    color: magenta;
+} .contact a{
+    
+    color: #0d9865;
+}
+
+
+
