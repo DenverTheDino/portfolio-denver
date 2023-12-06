@@ -7,7 +7,7 @@ get_header(); ?>
 <section class="mine__banner">
     <div class="container">
         <div class="row pt-5">
-            <div class="col-12 col-md-6 image">
+            <div class="col-12 col-md-6 image">         
                 <img src="http://localhost/wordpress/wp-content/uploads/2023/11/Christophe.png" alt="photo de moi">
             </div>           
             <div class="col-12 col-md-6 pt-5">
